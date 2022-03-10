@@ -1,0 +1,28 @@
+.html, body {
+    background-color: #000;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translateY(40%);
+}
+
+.form{
+    margin-top: 50px;
+}
+
+.form input{
+    width: 300px;
+}
+
+.form button{
+    background-color: #fff;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
