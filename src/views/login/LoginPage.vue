@@ -34,6 +34,6 @@
 
 </script>
 
-<style scoped>
+<style>
     @import './login-style.css';
 </style>
