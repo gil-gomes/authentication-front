@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+
+body {
+    background: linear-gradient(#29D0D8, 20%, #000000);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translateY(100%);
+}
+
+.login .header h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+    color: #fff;
+}
+
+.form{
+    margin-top: 50px;
+}
+
+.form input{
+    width: 300px;
+    border-radius: 0px;
+    border: none;
+    border-bottom: 2px solid gray;
+    background: transparent;
+    color: #fff;
+}
+
+.form input:focus {
+    padding-bottom: 6px;  
+    font-weight: 700;
+    border-width: 3px;
+    background: transparent;
+    border: 0 none;
+    border-bottom: 2px solid gray;
+    box-shadow: none;
+    color: #fff;
+}
+
+.form input::placeholder{
+    color: #fff;
+}
+
+.form button{
+    background-color: #fff;
+    color: #000;
+    width: 60%;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+@media (max-width: 400px){
+    .login .header h1{
+        font-size: 2.4rem;
+    }
+}
