@@ -3,7 +3,7 @@
     <div class="login">
 
         <div class="header">
-            <h1>G.A Imports</h1>
+            <h1>Autenticação</h1>
         </div>
 
         <div class="form">
