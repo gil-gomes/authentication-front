@@ -3,7 +3,7 @@
     <div class="login">
 
         <div class="header">
-            <h1>Autenticação</h1>
+            <h1>Login</h1>
         </div>
 
         <div class="form">
